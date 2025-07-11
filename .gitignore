@@ -1,83 +1,32 @@
 # Flutter/Dart/Pub related
 .dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
 .packages
 .pub-cache/
 .pub/
 build/
 
-# Opsi: ignore file log dan output
-*.log
-*.tmp
-*.swp
-
-# Android
-android/.gradle/
-android/captures/
-android/gradlew
-android/gradlew.bat
-android/local.properties
-android/.idea/
-android/.settings/
-android/.externalNativeBuild/
-android/app/debug/
-android/app/profile/
-android/app/release/
-
-# iOS
-ios/Flutter/App.framework
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/Flutter/Generated.xcconfig
-ios/Flutter/ephemeral/
-ios/Pods/
-ios/.symlinks/
-ios/Runner.xcworkspace/
-ios/Runner.xcodeproj/project.xcworkspace/
-ios/Runner.xcodeproj/xcuserdata/
-ios/Runner.xcworkspace/xcuserdata/
-ios/.dart_tool/
-
-# macOS
-macos/Flutter/ephemeral/
-macos/Pods/
-macos/.symlinks/
-macos/Runner.xcworkspace/
-macos/Runner.xcodeproj/project.xcworkspace/
-macos/Runner.xcodeproj/xcuserdata/
-macos/Runner.xcworkspace/xcuserdata/
-
-# Linux
-linux/flutter/
-linux/ephemeral/
-
-# Windows
-windows/flutter/
-windows/ephemeral/
-
-# Web
-web/generated_plugin_registrant.dart
-
-# VS Code
-.vscode/
-
-# IntelliJ/Android Studio
+# IDEs and editors
 .idea/
 *.iml
 *.ipr
 *.iws
-
-# Lain-lain
-*.DS_Store
-*.class
-*.jar
-*.war
-*.ear
+.vscode/
 *.swp
-*.swo
-*.orig
+.history
 
-# Test outputs
-test/
+# OS files
+.DS_Store
 
-# File konfigurasi pribadi
-*.env
+# Misc
+*.log
+
+# Symbolication and obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio build artifacts
+android/app/debug
+android/app/profile
+android/app/release
